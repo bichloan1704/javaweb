@@ -2,14 +2,11 @@
 JAVA WEB
 ## Used Technologies:
 
-* Spring (Boot, Data, Security, MVC etc)
+* Spring 
 * JPA / Hibernate
 * MYSQL
-* Thymeleaf
 * Bootstrap, CSS, JS
 * Maven
-* Junit
-* Lombok
 * SQL Query
 
 ## About Project
