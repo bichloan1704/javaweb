@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/java_web?useSSL=false
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+  mail:
+    host: smtp-mail.outlook.com
+    port: 587
+    username: nguyenthibichloan170404@gmail.com
+    password: bichloan@1704
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+server:
+  port: 8084
+
